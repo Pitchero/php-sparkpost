@@ -15,6 +15,7 @@ class Transmission extends APIResource
      * @var array
      */
     protected static $parameterMappings = [
+        'options' => 'options',
         'attachments' => 'content.attachments',
         'campaign' => 'campaign_id',
         'customHeaders' => 'content.headers',
